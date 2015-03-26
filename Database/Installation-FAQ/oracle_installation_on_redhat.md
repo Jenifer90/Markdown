@@ -6,7 +6,7 @@ March 2015
 - **System Version:**
 Red Hat Enterprise Linux Sever release 6.4 (Santiago)    
 Linux 下查看系统版本命令
-<pre><code># cat/etc/issue 
+<pre><code># cat /etc/issue 
 </code></pre>
 
 - **Database Version:**
@@ -20,9 +20,9 @@ Linux下查看数据库版本命令
 - check all the packages listed on Oracle Official Documentation
 
 # Configure yum Source
-<pre><code>[root@node~] #cat/etc/yum.repos.d/rhel   
+<pre><code>[root@node~] #cat /etc/yum.repos.d/rhel   
 rhel5.repo rhel-debuginfo.repo   
-[root@node~] #cat/etc/yum.repos.d/rhel5.repo  
+[root@node~] #cat /etc/yum.repos.d/rhel5.repo  
 
 [Server]  
 name=server
